@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Todo List</title>
+
+</head>
+
+<body>
+	<div class="container p-4">
+		<h2 class="text-light mb-4" id="header"><i class="fa fa-tasks"></i> To-Do App</h2>
+
+		<div class="container-2 p-3">
+			<div class="card-body bg-light rounded p-2">
+				<form id="addTaskForm">
+					<div class="input-group">
+						<input id="txtTaskName" name="taskName" type="text" class="form-control"
+							placeholder="Add new task" aria-describedby="btnAddNewTask">
+						<div class="input-group-append">
+							<button class="btn btn-success" type="submit" id="btnAddNewTask">
+								<i class="fas fa-plus"></i>
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<div class="row my-4 d-flex justify-content-center">
+				<div class="card bg-transparent border-0 col-8">
+					<div class="card-header bg-light border-0 rounded">
+						My List
+						<a id="btnDeleteAll" href="#" class="btn btn-dark btn-sm delete-all float-right">
+							Clear All
+						</a>
+					</div>
+	
+					<ul id="task-list" class="list-group">
+	
+					</ul>				
+				</div>
+
+				<div class="card col-3 border-0 justify-content-center text-center right-panel">
+					<div id="myClock" onload="showTime()"></div>
+					<div id="myDay" onload="showTime()"></div>		
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+	<script src="clock.js"></script>
+</body>
+
+</html>

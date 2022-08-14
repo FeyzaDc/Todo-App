@@ -1,0 +1,42 @@
+body {
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    letter-spacing: 1px;
+}
+
+.container-2 {
+    background-color: rgba(255, 255, 255, 0.226);
+}
+
+.list-group-item {
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.list-group-item:hover {
+    background-color: rgba(255, 255, 255);
+    transition: 0.3s;
+}
+
+.right-panel {
+    background-color: rgba(255, 255, 255, 0.171);
+    letter-spacing: 5px;
+}
+
+#myClock {
+    font-size: 40px;
+    font-weight: bolder;
+}
+#myDay {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 550;
+}
