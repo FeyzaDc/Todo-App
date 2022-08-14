@@ -1,4 +1,4 @@
-### To-Do Application
+## To-Do Application
 
 :star: The image of the application is available. 
   
