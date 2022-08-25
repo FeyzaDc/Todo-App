@@ -1,3 +1,3 @@
-## To-Do Application
+## :clipboard: To-Do Application
 
-:mag: [Preview](https://feyzadc.github.io/Todo-App/) of the app
+:star: [Preview](https://feyzadc.github.io/Todo-App/) of the app
